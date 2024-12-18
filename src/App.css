@@ -1,0 +1,38 @@
+nav {
+  background-color: rgb(255, 245, 233);
+  padding: 0 25px;
+  font-size: 16px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+nav > .vanlife-home-link {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+nav > div {
+  display: flex;
+  gap: 30px;
+}
+nav > div > a {
+  color: black;
+  text-decoration: none;
+}
+nav > div > a:hover {
+  color: rgb(235, 66, 66);
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgb(35, 35, 35);
+  height: 60px;
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
