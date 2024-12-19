@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import VanCard from '../components/vanCard.jsx';
+import VanCard2 from '../components/VanCard2';
 import '../styles/VansPage.css';
 
 const VansPage = () => {
@@ -26,7 +26,7 @@ const VansPage = () => {
         <h1>Explore our van options</h1>
         <div className='vans-container'>
           {vans.map((van) => (
-            <VanCard key={van.id} van={van} />
+            <VanCard2 key={van.id} van={van} />
           ))}
         </div>
       </div>

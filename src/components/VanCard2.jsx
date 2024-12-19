@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/VanCard.css';
 
-const vanCard = ({ van }) => {
+const VanCard2 = ({ van }) => {
   return (
     <div className='vancard-container'>
       <Link to={`/vans/${van._id}`}>
@@ -17,4 +17,4 @@ const vanCard = ({ van }) => {
   );
 };
 
-export default vanCard;
+export default VanCard2;
