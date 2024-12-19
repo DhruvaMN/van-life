@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import VanCard from '../components/vanCard';
+import VanCard from '../components/vanCard.jsx';
 import '../styles/VansPage.css';
 
 const VansPage = () => {
