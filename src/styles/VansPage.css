@@ -1,0 +1,21 @@
+.vanpage-outer-container {
+  display: flex;
+  justify-content: center;
+  min-height: calc(100vh - 60px - 80px);
+}
+.vanspage-container {
+  max-width: 600px;
+  padding: 20px;
+}
+.vanspage-container > h1 {
+  text-align: center;
+}
+.vans-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(231, 249, 255);
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}

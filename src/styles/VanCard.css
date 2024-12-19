@@ -1,0 +1,25 @@
+.vancard-container {
+  max-width: 100%;
+  cursor: pointer;
+}
+.vancard-container > a {
+  color: black;
+  text-decoration: none;
+}
+.vancard-container > a > img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+.vancard-container > a > div {
+  display: flex;
+  justify-content: space-between;
+}
+.vancard-container > a > div > h2 {
+  font-size: 20px;
+}
+.vancard-container > a > p {
+  display: block;
+  font-size: 16px;
+  text-align: right;
+}

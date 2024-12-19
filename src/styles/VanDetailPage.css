@@ -1,0 +1,56 @@
+.van-detail-container {
+  background-color: rgb(231, 249, 255);
+  max-width: 600px;
+  min-height: calc(100vh - 80px - 60px);
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+.van-detail-container > a {
+  color: black;
+}
+.van-detail-container > a > i {
+  color: rgb(112, 107, 107);
+  margin-right: 5px;
+  font-size: 12px;
+}
+.van-detail-container > img {
+  width: 100%;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.van-detail-container > h1 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+.van-detail-container > h3 {
+  font-size: 20px;
+  margin: 15px 0px;
+}
+.van-detail-container > h3 > span {
+  font-weight: normal;
+  font-size: 16px;
+}
+.van-detail-container > p {
+  margin-bottom: 20px;
+}
+.van-detail-container > button {
+  background-color: orange;
+  border: none;
+  padding: 10px 0px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: var(--generic_transition);
+}
+.van-detail-container > button:hover {
+  box-shadow: 0 0 10px rgba(255, 165, 0, 0.6);
+  transform: scale(1.005);
+}
+.van-detail-container > button:active {
+  opacity: 0.8;
+}
