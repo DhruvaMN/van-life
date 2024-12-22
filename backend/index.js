@@ -16,6 +16,7 @@ app.get('/api/v1/vans', async (req, res) => {
   try {
     const allVans = await Vans.find({});
     res.status(200).json({ allVans });
+    console.log('user has logged');
   } catch (error) {
     res.status(500).send(error);
   }
