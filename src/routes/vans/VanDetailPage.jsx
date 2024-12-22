@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams, Link } from 'react-router-dom';
-import '../styles/VanDetailPage.css';
+import '../../styles/VanDetailPage.css';
 
 const VanDetailPage = () => {
   const { id } = useParams();
@@ -19,13 +19,12 @@ const VanDetailPage = () => {
       }
     }
     fetchVan(id);
-  }, []);
-  console.log(van);
+  }, [id]);
   return (
     <div className='vanpage-outer-container'>
       <div className='van-detail-container'>
         <Link to='/vans'>
-          <i class='fa-solid fa-arrow-left' />
+          <i className='fa-solid fa-arrow-left' />
           Back to all vans
         </Link>
         <img src={van.imageURL} alt='' />

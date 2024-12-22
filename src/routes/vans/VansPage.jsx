@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import VanCard2 from '../components/VanCard2';
-import '../styles/VansPage.css';
+import VanCard2 from '../../components/VanCard2';
+import '../../styles/VansPage.css';
 
 const VansPage = () => {
   const [vans, setVans] = useState([]);
@@ -16,7 +16,6 @@ const VansPage = () => {
         setVans([]);
       }
     };
-
     fetchVans();
   }, []);
 
